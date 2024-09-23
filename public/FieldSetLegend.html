@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FieldSet Legend</title>
+    <style>
+        fieldset{
+            margin-top: 30px;
+        }
+
+        dt{
+            font-weight: bold;
+        }
+        dl{
+            display: grid;
+            grid-template-columns: 3fr 9fr ;
+
+        }
+        legend{
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 20px;
+            box-shadow:4px 2px 2px darkcyan;
+            background-color:darkcyan;
+            color: white;
+            
+        }
+        fieldset{
+            box-shadow: 5px 2px 6px blue;
+        }
+        dt{
+            text-shadow: 5px 5px 2px black;
+        }
+        h1{
+
+            text-shadow:2px 3px 4px black;
+            text-align: center;
+            color: yellow;
+            border: 2px solid black;
+            border-radius: 50px;
+        }
+    </style>    
+</head>
+<body>
+    <h1>PRODUCT CATLOG</h1>
+    <fieldset>
+        <legend>Basic Details</legend>
+        <dl>
+            <dt>Name</dt>
+            <dd>Samsung TV</dd>
+            <dt>Price</dt> 
+            <dd>6000.32</dd>
+        </dl>
+    </fieldset>
+
+    <fieldset>
+        <legend>Shipping Details </legend>
+        <dl>
+            <dt>Stock</dt>
+            <dd>Available</dd> 
+        </dl>
+    </fieldset>
+</body>
+</html>
